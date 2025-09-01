@@ -11,5 +11,7 @@ int main()
     scanf("%d", &number);
     printf("read number: %f\n", number);
 
+    //dá um warning, compila e roda o código, porém não printa o número digitado, printa 0.000000
+
     return 0;
 }
