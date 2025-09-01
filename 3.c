@@ -5,11 +5,11 @@
 
 int main()
 {
-    int value;
+    int number;
 
-    printf("enter a integer value: ");
-    scanf("%d", &value);
-    printf("read value: %d\n", value);
+    printf("enter an integer value: ");
+    scanf("%d", &number);
+    printf("read value: %d\n", number);
 
     return 0;
 }
