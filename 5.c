@@ -12,7 +12,7 @@ int main()
     printf("read value: %d\n", real);
 
     //warning, but compile and run
-    //j
+    //print wrong value
 
     return 0;
 }
