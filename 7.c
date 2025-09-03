@@ -10,5 +10,7 @@ int main()
     scanf("%c", &ch);
     printf("ch: %d\n", ch);
 
+    //print their equivalent in ASCII table
+
     return 0;
 }
