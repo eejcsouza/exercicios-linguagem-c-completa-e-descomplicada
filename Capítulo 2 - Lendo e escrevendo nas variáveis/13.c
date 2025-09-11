@@ -11,5 +11,7 @@ int main()
     scanf("%c", &ch);
     printf("\"%c\"\n", ch);
 
+    //to print double quotes use \" \"
+
     return 0;
 }

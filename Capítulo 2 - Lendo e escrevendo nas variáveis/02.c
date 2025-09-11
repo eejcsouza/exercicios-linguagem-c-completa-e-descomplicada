@@ -4,11 +4,11 @@
 
 int main()
 {
-    int number;
+    int num;
 
-    printf("enter an integer: ");
-    scanf("%d", &number);
-    printf("number: %d\n", number);
+    printf("digite um inteiro: ");
+    scanf("%d", &num);
+    printf("valor: %d\n", num);
 
     return 0;
 }

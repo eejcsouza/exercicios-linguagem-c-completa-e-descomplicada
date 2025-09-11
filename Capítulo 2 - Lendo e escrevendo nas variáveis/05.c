@@ -7,12 +7,12 @@ int main()
 {
     float real;
 
-    printf("enter a float value: ");
+    printf("digite um valor de ponto flutuante: ");
     scanf("%f", &real);
-    printf("read value: %d\n", real);
+    printf("valor lido: %d\n", real);
 
-    //warning, but compile and run
-    //print wrong value
+    //o terminal exibe uma mensagem de warning, mas compila e roda
+    //exibe um valor errado
 
     return 0;
 }
