@@ -39,6 +39,6 @@ Para compilar e executar qualquer um dos exercícios, siga os passos abaixo no t
 
 ## 👤 Autor
 
-**Julio Cesar de Souza**
+**Julio César de Souza**
 
 * GitHub: [@eejcsouza](https://github.com/eejcsouza)
