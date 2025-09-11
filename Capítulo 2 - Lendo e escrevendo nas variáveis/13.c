@@ -1,5 +1,5 @@
-/*make a program that reads a character of type char and then prints it between double quotes. thus, if the character read is the letter A,
-it should print "A"*/
+/*Faça um programa que leia um caractere do tipo char e depois o imprima entre
+aspas duplas. Assim, se o caractere lido for a letra A, deverá ser impresso “A”.*/
 
 #include <stdio.h>
 
@@ -7,11 +7,11 @@ int main()
 {
     char ch;
 
-    printf("enter a char: ");
+    printf("digite um char: ");
     scanf("%c", &ch);
     printf("\"%c\"\n", ch);
 
-    //to print double quotes use \" \"
+    //para imprimir aspas duplas usar \" \"
 
     return 0;
 }

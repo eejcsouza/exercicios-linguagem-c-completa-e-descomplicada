@@ -1,4 +1,5 @@
-/*write a program that contains any constant of type int. use the const command. print this constant*/
+/*Elabore um programa que contenha uma constante qualquer do tipo int. Use o
+comando const. Imprima essa constante.*/
 
 #include <stdio.h>
 

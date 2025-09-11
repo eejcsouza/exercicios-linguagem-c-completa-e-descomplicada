@@ -1,4 +1,5 @@
-/*make a program that contains any float constant. use the #define command. print this constant*/
+/*Elabore um programa que contenha uma constante qualquer do tipo float. Use o
+comando #define. Imprima essa constante.*/
 
 #include <stdio.h>
 #define E 2.718282

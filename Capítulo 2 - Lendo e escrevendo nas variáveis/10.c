@@ -1,19 +1,20 @@
-/*make a program that ask the user to enter with the day, month and year. than print the read values separated by /*/
+/*Elabore um programa que solicite ao usuário entrar com o valor do dia, mês e ano
+(inteiros). Em seguida, imprima os valores lidos separados por uma barra (\).*/
 
 #include <stdio.h>
 
 int main()
 {
-    int day, month, year;
+    int dia, mes, ano;
 
-    printf("enter the date:\n");
-    printf("day: ");
+    printf("digite uma data:\n");
+    printf("dia: ");
     scanf("%d", &day);
-    printf("month: ");
+    printf("mes: ");
     scanf("%d", &month);
-    printf("year: ");
+    printf("ano: ");
     scanf("%d", &year);
-    printf("date: %d/%d/%d\n", day, month, year);
+    printf("dia: %d/%d/%d\n", dia, mes, ano);
 
     return 0;
 }

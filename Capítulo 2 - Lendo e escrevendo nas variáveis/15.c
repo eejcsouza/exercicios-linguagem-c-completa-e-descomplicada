@@ -1,5 +1,7 @@
-/*write a program that reads three variables: char, int and float. right away, print them in three different ways: separated by spaces, 
-separated by a horizontal tab and once per line. use a single printf() command for each write operation of the three variables*/
+/*Escreva um programa que leia três variáveis: char, int e float. Em seguida, imprima-
+as de três maneiras diferentes: separadas por espaços, por uma tabulação horizontal e
+uma em cada linha. Use um único comando printf() para cada operação de escrita
+das três variáveis.*/
 
 #include <stdio.h>
 
@@ -9,11 +11,11 @@ int main()
     int num;
     float real;
 
-    printf("enter a char: ");
+    printf("digite um char: ");
     scanf("%c", &ch);
-    printf("enter an int: ");
+    printf("digite um int: ");
     scanf("%d", &num);
-    printf("enter a float: ");
+    printf("digite um float: ");
     scanf("%f", &real);
     
     printf("%c %d %f\n", ch, num, real);
