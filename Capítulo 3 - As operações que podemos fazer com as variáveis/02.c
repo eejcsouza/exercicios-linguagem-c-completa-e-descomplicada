@@ -12,4 +12,4 @@ int main()
     printf("a quinta parte de %f é: %f\n", real, real/5);
 
     return 0;
-}
+}       
