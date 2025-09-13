@@ -1,6 +1,6 @@
 # Exercícios de Linguagem C - Completa e Descomplicada
 
-Este repositório contém minhas soluções para os exercícios do livro "Linguagem C Completa e Descomplicada" do professor André Backes. O objetivo deste projeto é a prática e o aprofundamento dos fundamentos da linguagem C.
+Este repositório contém minhas soluções para os exercícios do livro "Linguagem C Completa e Descomplicada - 1ª Edição" do professor André Backes. O objetivo deste projeto é a prática e o aprofundamento dos fundamentos da linguagem C.
 
 O projeto está organizado em pastas, onde cada uma corresponde a um capítulo do livro.
 
