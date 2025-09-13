@@ -32,16 +32,16 @@ Para compilar e executar qualquer um dos exercícios, siga os passos abaixo no t
     gcc 01.c -o exercicio01
     ```
 
-4.  **Cógidos com <math.h>:**
-    É necessário incluir a flah -lm para linkar a biblioteca matemática durante o proecesso de compilação
+4.  **Execute o programa:**
+    ```bash
+    ./exercicio01
+    ```
+
+5.  **Cógidos com <math.h>:**
+    É necessário incluir a flag `-lm` para linkar a biblioteca matemática durante o proecesso de compilação
     ```bash
     # Exemplo compilando o arquivo 13.c, do capítulo 3
     gcc 13.c -o 13 -lm
-    ```
-
-5.  **Execute o programa:**
-    ```bash
-    ./exercicio01
     ```
 
 ## 👤 Autor
