@@ -9,7 +9,7 @@ O projeto está organizado em pastas, onde cada uma corresponde a um capítulo d
 * **Linguagem:** C
 * **Compilador:** GCC
 * **Editor:** Visual Studio Code
-* **Sistema Operacional:** Linux Mint
+* **Sistema Operacional:** Linux Mint 22.2 'Zara'
 
 ## 💻 Como Compilar e Executar
 
@@ -38,7 +38,7 @@ Para compilar e executar qualquer um dos exercícios, siga os passos abaixo no t
     ```
 
 5.  **Cógidos com <math.h>:**
-    É necessário incluir a flag `-lm` para linkar a biblioteca matemática durante o proecesso de compilação
+    É necessário incluir a flag `-lm` para linkar a biblioteca matemática durante o processo de compilação
     ```bash
     # Exemplo compilando o arquivo 13.c, do capítulo 3
     gcc 13.c -o 13 -lm
