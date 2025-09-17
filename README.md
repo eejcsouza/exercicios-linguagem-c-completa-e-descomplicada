@@ -37,7 +37,7 @@ Para compilar e executar qualquer um dos exercícios, siga os passos abaixo no t
     ./exercicio01
     ```
 
-5.  **Cógidos com <math.h>:**
+5.  **Códigos com <math.h>:**
     É necessário incluir a flag `-lm` para linkar a biblioteca matemática durante o processo de compilação
     ```bash
     # Exemplo compilando o arquivo 13.c, do capítulo 3
