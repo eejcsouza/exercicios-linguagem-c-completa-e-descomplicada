@@ -12,33 +12,33 @@ Imposto 7%  12% 15% 8%
 
 int main()
 {
-    int estado = 1;
+    int estado;
     float valorProduto;
 
     printf("Estado\tMG\tSP\tRJ\tMS\n");
     printf("Imposto\t7%%\t12%%\t15%%\t8%%\n");
     printf("Opcao\t1\t2\t3\t4\n");
     printf("Digite o estado a ser enviado o produto: ");
+    scanf("%d", &estado);
 
-    do
+    if(estado < 1 || estado > 4)
     {
-        if(estado < 1 || estado > 4)
-            printf("Opcao invalida! Digite outra: ");
-        scanf("%d", &estado);
+        printf("Opcao invalida!\n");
     }
-    while(estado < 1 || estado > 4);
-
-    printf("Digite o valor do produto: R$ ");
-    scanf("%f", &valorProduto);
-    printf("Valor final do produto: R$ ");
-
-    switch(estado)
+    else
     {
-        case 1: printf("%.2f", valorProduto*1.07); break;
-        case 2: printf("%.2f", valorProduto*1.12); break;
-        case 3: printf("%.2f", valorProduto*1.15); break;
-        case 4: printf("%.2f", valorProduto*1.08); break;
-        default:
+        printf("Digite o valor do produto: R$ ");
+        scanf("%f", &valorProduto);
+        printf("Valor final do produto: R$ ");
+
+        switch(estado)
+        {
+            case 1: printf("%.2f", valorProduto*1.07); break;
+            case 2: printf("%.2f", valorProduto*1.12); break;
+            case 3: printf("%.2f", valorProduto*1.15); break;
+            case 4: printf("%.2f", valorProduto*1.08); break;
+            default:
+        }
     }
 
     printf("\n");
